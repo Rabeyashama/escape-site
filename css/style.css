@@ -1,0 +1,370 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    font-family: 'Lato', sans-serif;
+}
+
+
+/*header area start*/
+
+.header {
+    background-image: url(../img/bannar-image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 20px 0px 88px 0px;
+}
+
+.manu ul li a {
+    font-size: 20px;
+    color: #fff !important;
+    font-weight: 400;
+    padding: 0 20px !important;
+}
+
+.header-content {
+    padding-top: 120px;
+    color: #fff;
+}
+
+.header-content h3 {
+    font-size: 30px;
+    color: #fff;
+    font-weight: normal;
+}
+
+.header-content h1 {
+    text-align: center;
+    font-size: 75px;
+    font-family: bold;
+    font-weight: 700;
+    z-index: 100;
+    color: #fff;
+    text-transform: uppercase;
+    margin-top: 22px;
+}
+
+.header-content button {
+    color: #fff;
+    border: 2px solid aliceblue;
+    padding: 12px 50px;
+    font-size: 22px;
+    font-weight: 700;
+    margin-top: 70px;
+}
+
+.header-content button:hover {
+    color: rgb(128, 60, 60);
+}
+
+
+/*header area end*/
+
+
+/*development part start*/
+
+.development {
+    padding: 80px 0;
+}
+
+.dev-content h1 {
+    font-size: 50px;
+    color: #222222;
+}
+
+.dev-content p {
+    font-size: 20px;
+    text-align: justify;
+    line-height: 30px;
+    font-weight: normal;
+    weight: 100%;
+    color: #777777;
+}
+
+.dev-content image {
+    margin-left: 150px;
+    margin-top: 74px;
+    overflow: hidden;
+}
+
+.dev2nd {
+    background-color: rgb(248, 244, 244);
+}
+
+.content-text h1 {
+    font-size: 50px;
+    color: #222222;
+}
+
+.content-text p {
+    font-size: 20px;
+    text-align: justify;
+    line-height: 30px;
+    font-weight: normal;
+    weight: 100%;
+    color: #777777;
+}
+
+.fetured {
+    padding: 80px 0;
+}
+
+.icon {
+    width: 55px;
+    height: 65px;
+    background-color: black;
+    border-radius: 50%;
+    color: cornsilk;
+    text-align: center;
+    background-size: cover;
+}
+
+.icon i {
+    font-size: 25px;
+    padding-top: 20px;
+}
+
+.icon-text h3 {
+    font-family: bold;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.icon-text p {
+    font-size: 19px;
+    font-weight: 22px;
+    text-align: justify;
+    line-height: 30px;
+    color: #777777;
+}
+
+
+/*development part end*/
+
+
+/*clients part start*/
+
+.clieant-part {
+    padding: 80px 0;
+    background-color: #fafafa;
+}
+
+.clients h2 {
+    font-size: 42px;
+    color: #222222;
+}
+
+.clients p {
+    font-size: 20px;
+    line-height: 20px;
+    color: #919191;
+}
+
+.circle img {
+    width: 260px;
+    height: 260px;
+    border-radius: 50%;
+    border: 8px solid #e6510b;
+}
+
+.client-text p {
+    font-size: 22px;
+    color: #777777;
+}
+
+.b-color {
+    font-size: 18px !important;
+    color: #7690c5 !important;
+}
+
+.client-text {
+    padding: 84px 0;
+    background-color: #ffffff;
+    border: 0.5px solid #ddd;
+    padding: 25px 40px;
+    text-align: justify;
+}
+
+.client-text:before {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-right: 20px solid rgb(233, 230, 230);
+    border-bottom: 10px solid transparent;
+    left: -4px;
+    top: 48%;
+}
+
+
+/*2nd client part*/
+
+.circle2 img {
+    width: 260px;
+    height: 260px;
+    border-radius: 50%;
+    border: 8px solid #F4AA11;
+}
+
+.client-text2 p {
+    font-size: 22px;
+    color: #777777;
+}
+
+.b-color {
+    font-size: 18px !important;
+    color: #7690c5 !important;
+}
+
+.client-text2 {
+    padding: 84px 0;
+    background-color: #ffffff;
+    border: 0.5px solid #ddd;
+    padding: 25px 40px;
+    text-align: justify;
+}
+
+.client-text2:before {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-left: 20px solid rgb(233, 230, 230);
+    border-bottom: 10px solid transparent;
+    right: -4px;
+    top: 48%;
+}
+
+
+/*clients part end*/
+
+
+/*brand part start*/
+
+.brand {
+    padding: 50px 0;
+    background-color: #ffffff;
+}
+
+
+/*brand part start*/
+
+
+/*profile part start*/
+
+.profile {
+    padding: 80px 20px;
+    background-color: black;
+}
+
+.profile-text h2 {
+    color: #ffffff;
+    font-size: 45px;
+}
+
+.profile-text p {
+    font-size: 20px;
+    color: #414141;
+}
+
+.circle-img img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 4px solid #fff;
+}
+
+.profile h3 {
+    font-size: 20px;
+    color: #fff;
+    font-weight: 15px;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+.profile p {
+    font-size: 20px;
+    color: #5a5a5a;
+    margin-left: 25px;
+}
+
+.social-icon i {
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    color: #fff;
+    border-radius: 50%;
+    border: 2px solid rgb(243, 239, 238);
+    line-height: 50px;
+    padding-left: 10px;
+}
+
+.profile h5 {
+    font-size: 22px;
+    padding: 80px 20px;
+    color: #bfbfbf;
+}
+
+
+/*profile part end*/
+
+
+/*footer part start*/
+
+.footer {
+    padding: 80px 0;
+    background: #7690c5;
+    color: #fff;
+}
+
+.content-design ul li {
+    font-size: 18px;
+}
+
+.content-design p {
+    font-size: 20px;
+}
+
+
+/*footer part end*/
+
+
+/*form aewa sart*/
+
+.form-design input {
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+.form-design textarea {
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 3px;
+    width: 100%;
+    height: 200px;
+    border: none;
+}
+
+.form-design hr {
+    border: 1px solid #ffffff;
+}
+
+.form-design button {
+    font-size: 20px;
+    color: rgb(235, 217, 217);
+}
+
+.footer-text a {
+    font-size: 20px;
+    color: #f6f8fb;
+}
+
+.color {
+    color: #e6510b;
+}
